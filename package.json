@@ -2,7 +2,8 @@
   "name": "taskmanager",
   "version": "1.0.0",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
@@ -20,11 +21,5 @@
   "bugs": {
     "url": "https://github.com/Sudhanshumishra13/Task-manager-backend/issues"
   },
-  "homepage": "https://github.com/Sudhanshumishra13/Task-manager-backend#readme",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "mongoose": "^8.16.4"
-  }
+  "homepage": "https://github.com/Sudhanshumishra13/Task-manager-backend#readme"
 }
