@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 });
 
 // Import routes
-const authRoutes = require('./models/routes/middleware/auth');
+const authRoutes = require('./routes/middleware/auth');
 const taskRoutes = require('./models/routes/Task');
 
 app.use('/api/auth', authRoutes);
